@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">adivinha</string>
+    <string name="edit_numero">Diga um numero de 0 a 10</string>
+    <string name="button_sub">Submeter</string>
+</resources>
