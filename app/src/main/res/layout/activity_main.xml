@@ -13,10 +13,10 @@
         android:layout_margin="20dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputNumero"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
-            android:autoText="true"
             android:hint="@string/edit_numero"
             android:inputType="number" />
 
@@ -26,6 +26,7 @@
             android:layout_height="622dp"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
+            android:onClick="onClickBotaosubmeter"
             android:text="@string/button_sub" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -35,21 +36,24 @@
         android:layout_height="33dp"
         android:layout_marginLeft="120dp"
         android:layout_weight="0"
-        android:text="numero de tentativas:" />
+        android:text="@string/numero_de_tentativas"
+        android:layout_marginStart="120dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewtentativas"
         android:layout_width="149dp"
         android:layout_height="31dp"
         android:layout_marginLeft="120dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_marginStart="120dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewresultado"
         android:layout_width="151dp"
         android:layout_height="51dp"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="100dp"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_marginStart="120dp" />
 
 </LinearLayout>
