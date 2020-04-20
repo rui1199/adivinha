@@ -3,4 +3,8 @@
     <string name="edit_numero">Diga um numero de 0 a 10</string>
     <string name="button_sub">Submeter</string>
     <string name="numero_de_tentativas">numero de tentativas:</string>
+    <string name="numero_ob">tem de ser um numero</string>
+    <string name="numero_lim">tem de ser entre 0 e 10</string>
+    <string name="resultado_certo">CERTO!!</string>
+    <string name="resultado_errado">Errado!!</string>
 </resources>
