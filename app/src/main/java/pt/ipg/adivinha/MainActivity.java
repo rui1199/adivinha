@@ -12,9 +12,8 @@ import java.util.Random;
 
 
 public class MainActivity extends AppCompatActivity {
-    private Random random = new Random();
-    private int numeroadivinha = random.nextInt(11);
 
+    private int numeroAdivinhar = NumeroAleatorio.proximoNumero();
     private EditText textInputNumero;
     private EditText textViewresultado;
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewtentativas = findViewById(R.id.textViewtentativas);
         TextView textViewresultado = findViewById(R.id.textViewresultado);
 
-        if(numeroadivinha == numero ){
+        if(numeroAdivinhar == numero ){
             textViewresultado.setText(R.string.resultado_certo);
             textViewresultado.setTextColor(Color.BLUE);
             textViewresultado.requestFocus();
